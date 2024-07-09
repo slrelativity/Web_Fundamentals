@@ -20,6 +20,7 @@
     margin-bottom: 50px;
     margin-right: 10px;
     margin-left: 15px;
+    vertical-align: top;
 }
 .main {
     height: 400px;
@@ -38,6 +39,7 @@
     margin-top: 12px;
     margin-left: 8px;
     margin-bottom: 12px;
+    vertical-align: top;
 }
 #advertisement {
     height: 120px;
