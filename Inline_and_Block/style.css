@@ -1,0 +1,50 @@
+/* without CSS
+HELLO WORLD (no background color)
+Goodbye World (no background color)
+First Name: (box) Last Name: (box)*/
+
+/* with CSS Inline on h1, h2 and Block on label/input
+HELLO WORLD Goodbye World (background color added)
+First Name: (box) 
+Last Name: (box)*/
+
+
+/* with CSS Inline-block on h1, h2 and Block on label/input If we want to be able to change the width and allow the elements to be next to one another we have a third option "inline-block".
+Inline seems really cool, but inline elements will shrug off our attempts to apply width to them.
+HELLO WORLD Goodbye World (background color added)
+First Name: (box) 
+Last Name: (box)*/
+
+
+h1, h2 {
+    display: inline-block;
+    background-color: cyan;
+    width: 200px;
+}
+label, input {
+    display: block;
+}
+
+/*Making colums with inline-block (remove "block" to create rows)
+Add "Vertical-Align" to align boxes when content has different sizes*/
+p {
+    display: inline-block;
+    width: 260px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: yellow;
+    margin: 10px;
+    vertical-align: top;
+    }
+
+    /*Display:Inline keeps elements within their space
+       Display:Block takes up the entire line */
+    a {
+    text-decoration: none;
+    color: darkslategrey;
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+    }
+
