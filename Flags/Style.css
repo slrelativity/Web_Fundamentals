@@ -1,0 +1,36 @@
+.container{
+    width: 960px;
+}
+
+.poland{
+    border-style: solid;
+}
+.poland-1{
+    background-color: white;
+    height: 200px;
+}
+
+.poland-2{
+    background-color: #d5143a;
+    height: 200px;
+}
+
+
+.germany-1{
+    background-color: black;
+    height: 200px;
+    display: flex;
+    margin-top:  60px;
+}
+
+.germany-2{
+    background-color: #d5143a;
+    height: 200px;
+    display: flex;
+}
+
+.germany-3{
+    display: flex;
+    background-color: yellow;
+    height: 200px;
+}
