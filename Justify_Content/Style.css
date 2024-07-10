@@ -1,0 +1,18 @@
+/*Fixed size without "DISPLAY:FLEX"*/
+#dojo {
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    display: flex; /*with "DISPLAY:FLEX" it will expand and distort the images*/
+    align-items: center; /*Adding "ALIGN-ITEMS:CENTER" removes the "stretch/distortion"*/
+    justify-content: flex-start; /*"Justify Content - Flex-Start In this case when #dojo it will reposition the ninjas to the start!*/
+    justify-content: center; /*"Justify Content - Center In this case when #dojo it will reposition the ninjas to the center!*/
+    justify-content: flex-end; /*"Justify Content - Flex-End In this case when #dojo it will reposition the ninjas to the end!*/
+
+
+} 
+
+
+
+
+
