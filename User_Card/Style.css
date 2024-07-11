@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+
+.box{
+width: 650px;
+margin-left: 300px;
+margin-top: 100px;
+color: white;
+background-color: #1ba1b8;
+}
+
+.description{
+    background-color: white;
+    color: black;
+    height: 265px;
+    border-style: solid;
+    border-color: lightgray;
+    padding-left: 30px;
+}
+
+h1{
+    margin-bottom: 5px;
+    padding-top: 45px;
+}
+
+.user{
+    position: relative;
+    top: 50px;
+    left: 30px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: lightgray;
+}
+
+.map{
+    margin-top: 4px;
+}
+
+.info{
+    display: flex;
+    gap: 12px;
+}
+
+.bckgd{
+    margin-top: 20px;
+}
+
+#links{    
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
