@@ -6,44 +6,71 @@
 }
 
 .container{
-    margin-top: 300px;
-    display: flex;
+    margin-top: 30px;
+
 }
 
 .box{
+    background-color: crimson;
+    color: white;
+    width: 500px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 200px;
+    display: flex;
+    
+}
+.box-a{
     background-color: blue;
     color: white;
     width: 500px;
-    height: 50px;
-    margin-left: 200px;
+    height: 200px;
+   
+
 }
 
 .box-1{
-    background-color: green;
-    color: white;
-    width: 500px;
-    height: 350px;
-    margin-left: 200px;
+    background-color: crimson;
+    width: 300px;
+    height: 200px;
+    margin-left: 20px;
+  
 }
+
+.box-b{
+    
+    background-color:darkgoldenrod;
+    color: white;
+    width: 300px;
+    height: 50px;
+
+}
+
 
 .box-2{
     background-color: purple;
     color: white;
-    width: 200px;
-    height: 250px;
+    width: 500px;
+    height: 200px;
+    padding-top: 10px;
     margin-left: 200px;
 }
 
+.box-c{
+    background-color:darkgoldenrod;
+    color: white;
+    width: 500px;
+    height: 300px;
+    margin-top: 50px;
+    padding-top: 10px;
+}
 .box-3{
+
     background-color: orange;
     color: white;
-    width: 400px;
+    width: 300px;
     height: 250px;
     margin-left: 20px;
-}
-.new{
-    background-color: white;
-    color: brown;
-
+    padding-bottom: 20px;
 
 }
