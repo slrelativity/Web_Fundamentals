@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+    outline: 1px solid red;
+}
+
+#container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#nav{
+    background-color: blue;
+    display: flex;
+    color: white;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
+
+#lfcol{
+    width: 50%;
+}
+
+#rtcol{
+    width: 50%
+}
+
+#btn{
+    background-color: green;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
