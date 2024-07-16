@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+
+header{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+header h1{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-weight: normal;
+}
+
+main{
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+}
+
+#banner {
+    padding: 10px;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+}
+
+#left-main{
+    width: 150px;
+    border:  2px solid black;
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+#right-main{
+    padding: 2px 10px;
+    width: 85%;
+}
+
+.box{
+    border: 2px solid black;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+.top{
+    margin-top: 20px;
+    display: flex;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.middle{
+    margin-top: 20px;
+    display: flex;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bottom{
+    margin-top: 20px;
+    display: flex;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.name {
+    font-size: x-large;
+    display: flex;
+    padding-right: 45%;
+}
+
+.info{
+    display: flex;
+    padding-left: 15px;
+}
+
+.likes{
+    background-color: yellow;
+    color: black;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-shadow: 4px 4px;
+    border: 2px solid black;
+}
+
+#left-main img{
+    width: 120px;
+    height: 120px;
+}
+
+span#counter{
+    padding-right:75px;
+}
+
+span#counter1{
+    padding-right:80px;
+}
+
+span#counter2{
+    padding-right:75px;
+    display: flex;
+}
+
+a{
+    margin-bottom: 25px;
+}
+
+h2{
+    margin-top: 25px;
+}

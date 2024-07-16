@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Like Part 2</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <header>
+        <h1>Network</h1>
+    </header>
+    <div id="banner">
+        <h1>Your Feed</h1>
+    </div>
+    <main>
+        <div id="left-main">
+            <img src="./avatar.png" alt="profile picture">
+            <a href="#">Add an avatar</a>
+            <h2>James doe</h2>
+        </div>
+        <div id="right-main">
+            <div class="box">
+                <div class="top">
+                    <p class="name">Neil M </p><span id="counter">0 like(s) </span><p class="likes" onclick="increaseCounter()">Like</p>
+                </div>
+                <p class="info">I just set up this new discord bot, let me  <span><a href="#">link</a></span></p>
+                <p class="info">know what you all think.</p>
+            </div>
+            <div class="box">
+                <div class="middle">
+                    <p class="name">Nichole K</p><span id="counter1">0 like(s) </span><p class="likes" onclick="increaseCounter1()">Like</p>
+                </div>
+                <p class="info">Just finished my <span><a href="#"> next comic,</a> </span>check it out.</p>
+            </div>
+            <div class="box">
+                <div class="bottom">
+                    <p class="name">Jim R</p><span id="counter2">0 like(s) </span><p class="likes" onclick="increaseCounter2()">Like</p>
+                </div>
+                <p class="info">I can't stop listening to the <span><a href="#">new album</a></span>.</p>
+                <p class="info">Who else is liking it?</p>
+            </div>
+        </div>
+    </main>
+    <script src="Script.js"></script>
+</body>
+</html>
