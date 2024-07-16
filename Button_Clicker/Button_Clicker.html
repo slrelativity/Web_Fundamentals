@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Button Clicker</title>
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+<div id="nav">
+    <p>Dojonary</p>
+    <input type="search" placeholder="Search">
+    <button onclick="logoff(this)">Login</button>
+</div>
+<div id="container">
+    <div id="main">
+        <div id="lfmain">
+            <div id="lfupperbox">
+                <h3>ninja</h3>
+                <h5><em>noun</em></h5>
+                <p>A practioner skiller in the <a href="#"> Japanese</a> art of ninjutsu </p>
+                <h5>Plural: <em>ninjas</em></h5>
+                <button class="likesbtn1" onclick="increaseCounter() + alert('Ninja was liked')"><span id="counter">0</span> likes</button>
+            </div>
+            <div id="lflowerbox">
+                <h3>ninja</h3>
+                <h5><em>noun</em></h5>
+                <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">Zen</a>-like focus</p>
+                <h5>Plural: <em>ninjas</em></h5>
+                <button class="likesbtn2" onclick="increaseCounter1() + alert('Ninja was liked')"><span id="counter1">0</span> likes</button>
+            </div>
+        </div>
+        <div id="rtmain">
+            <div id="rtupper">
+                <p>Dojonary is defined by <strong>YOU</strong></p>
+                <button id="grbtn" onclick="hide(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
