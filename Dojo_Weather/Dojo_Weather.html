@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <nav>
+        <div id="left-nav">
+            <h1>DojoWeather</h1>
+        </div>
+        <div id="right-nav">
+            <p>Burbank</p>
+            <p>Chicago</p>
+            <p>Dallas</p>
+        </div>
+    </nav>
+    <div id="banner">
+        <div id="left-banner">
+            <h1>San Jose</h1>
+        </div>
+        <div id="right-banner">
+            <p>show temperature in</p>
+            <select onclick="high()" name="fc" id="temp">
+                <option value="celsius">&#8451;</option>
+                <option value="fahrenheit">&#8457;</option>
+            </select>
+        </div>
+    </div>
+    <main>
+        <div id="days">
+            <div id="day-1">
+                <h3>Today</h3>
+                <img src="./some_rain.png" alt="some_rain">
+                <p>some rain</p>
+                <div class="numdegrees">
+                    <h3 class="warm">24&#176;</h3>
+                    <h3 class="cool">18&#176;</h3>
+                </div>
+            </div>
+            <div id="day-2">
+                <h3>Tomorrow</h3>
+                <img src="./some_sun.png" alt="some_sun">
+                <p>some sun</p>
+                <div class="numdegrees">
+                    <h3 class="warm">27&#176;</h3>
+                    <h3 class="cool">19&#176;</h3>
+                </div>
+            </div>
+            <div id="day-3">
+                <h3>Friday</h3>
+                <img src="./some_clouds.png" alt="some_clouds">
+                <p>some clouds</p>
+                <div class="numdegrees">
+                    <h3 class="warm">21&#176;</h3>
+                    <h3 class="cool">16&#176;</h3>
+                </div>
+            </div>
+            <div id="day-4">
+                <h3>Saturday</h3>
+                <img src="./some_sun.png" alt="some_sun">
+                <p>some sun</p>
+                <div class="numdegrees">
+                    <h3 class="warm">26&#176;</h3>
+                    <h3 class="cool">21&#176;</h3>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="left-cookie-banner">
+            <img src="./cookie.png" alt="cookie">
+        </div>
+        <div id="center-cookie-banner">
+            <h4>Stop! Cookie time</h4>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <span><a href="#">Read more...</a></span></p>
+        </div>
+                <button id="accept" onclick="accept()">Accept</button>
+    </footer>
+
+    <script src="Script.js"></script>
+</body>
+
+</html>
