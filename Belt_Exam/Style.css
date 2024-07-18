@@ -118,10 +118,7 @@
 
     nav h2 {
         display: flex;
-        
     }
-
-
 
     #banner {
         background-color: black;
@@ -347,7 +344,7 @@
         width: 90%;
     }
 
-    #score{
+    .score{
         color: grey;
         font-size: x-small;
     }
