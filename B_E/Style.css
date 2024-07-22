@@ -273,6 +273,15 @@
         color: black;
     }
 
+    #dot{
+        display: flex;
+        position: fixed;
+        padding-left: 11%;
+        padding-top: 26px;
+        width: 10px;
+
+    }
+
     #container {
         justify-content: space-between;
         text-align: center;
