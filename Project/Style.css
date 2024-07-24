@@ -1,111 +1,294 @@
-*{
+* {
     padding: 0;
     margin: 0;
-    font-family: Roboto;
+    font-family: cursive;
+}
+/* Body background image*/
+body {
+    background-image: url(34013577-big-ice-cream-cone.jpg);
+    background-repeat: no-repeat;
 }
 
-
-body{
-    background-color: pink;
-    
-}
-
-nav{
-background-color: #6f96e9;
-display: flex;
-padding: 10px;
-justify-content: space-between;
-}
-
-
-#left-nav{
-    display: flex;
-    gap: 10px;
-}
-
-#right-nav{
-    display: flex;
-    gap: 10px;
-}
-
-#right-nav img{
-    padding-right: 10px;
-    width: 30px;
-    height: 30px;
-    align-items: center;
-    justify-content: center;
+/*Navigation bar*/
+nav {
     background-color: #6f96e9;
+    display: flex;
+    padding: 5px 5px;
+    width: auto;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 80px;
+    border: 2px solid grey;
 }
 
-
-#banner{
-    padding: 10px;
-    color: white
+#left-nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
 
-
-#banner h1{
-    font-weight: bold;
-}
-
-#acct{
-    padding-left: 5px;
-    padding-right: 5px;
+#left-nav button {
     color: black;
-    box-shadow: 2px 6px;
+    box-shadow: 2px 3px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: lime;
+}
+
+#center-nav {
+    display: flex;
+    padding-right: 6%;
+    font-weight: bolder;
+}
+
+#right-nav {
+    display: flex;
+    gap: 10px;
+}
+
+#right-nav p {
+    font-size: x-large;
+    font-weight: bold;
+    align-items: center;
+}
+
+#right-nav #acct {
+    height: 30px;
+}
+
+#right-nav img {
+    display: flex;
+    gap: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+/* 'My Account button*/
+#acct {
+    color: black;
+    box-shadow: 2px 3px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: lime;
+}
+
+/* 'Add to cart button*/
+#add-1 {
+    background-color: #f58e30;
+    color: white;
+    border: 2px solid grey;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 5px;
     border-radius: 10px;
 }
 
-h2{
-    font-weight: bold;
-    color: white
+#add-2 {
+    background-color: #f58e30;
+    color: white;
+    border: 2px solid grey;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
 }
 
-p{
-
+#add-3 {
+    background-color: #f58e30;
+    color: white;
+    border: 2px solid grey;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
 }
 
+#add-4 {
+    background-color: #f58e30;
+    color: white;
+    border: 2px solid grey;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
 
-#main{
+/* 'Portion sizes button*/
+select {
+    border-radius: 10px;
+    background-color: cadetblue;
+    color: white;
+}
+
+/* Main*/
+#main {
+    margin-top: 60px;
     padding: 20px;
     display: flex;
-    justify-content: center;
+    width: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-
-#main img{
-width: 300px;
-height: 300px;
+/* Welcome message in main/upper right side*/
+#welcome p {
+    padding-left: 45%;
+    margin-left: 12%;
+    margin-right: 10%;
+    color: #f58e30;
 }
 
+/* Welcome header in main/upper right side*/
+#welcome h3 {
+    padding-left: 45%;
+    margin-left: 12%;
+    color: #f58e30;
+}
 
-footer{
-    background-color: #fff46d;
-    padding: 10px;
+/* Featured Flavors container*/
+#featured-flavors {
     display: flex;
-    gap: 30px;
-    justify-content: space-evenly;
-    align-items: left;
-
+    justify-content: space-between;
+    width: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 30px;
 }
 
-#left-footer{
-
+/* Shipping cart upper right side*/
+.cart {
+    padding-bottom: 10px;
+    margin-top: 3px;
 }
 
-#center-footer{
-display: flex;
-color: black;
+.pint {
+    position: relative;
+    width: 100%;
 }
 
-#center-footer img{
-    width: 40px;
-    height: 40px;
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 85%;
+    width: 100%;
+    opacity: 0;
+    transition: 2s ease;
+    border-radius: 10px;
+    background-color: #008CBA;
 }
 
-
-#right-footer img{
-    width: 100px;
-    height: 100px;
+.pint:hover .overlay {
+    opacity: 1;
 }
 
+.text {
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.pint h3 {
+    background-color: #6f96e9;
+    border-radius: 10px;
+    border: 2px solid grey;
+}
+
+.pint img {
+    width: 310px;
+    height: 310px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Footer of the page*/
+footer {
+    background-color: #fff46d;
+    padding: 10px 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: 10px;
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 100px;
+}
+
+#center-footer {
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+    position: relative;
+    width: 100%;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#center-footer img {
+    width: 175px;
+    height: 120px;
+    border-radius: 10px;
+    display: flex;
+}
+
+#center-footer p {
+    font-size: large;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 2s ease;
+    border-radius: 10px;
+    background-color: #008CBA;
+}
+
+.overlay-1 p {
+padding-left: 20px;
+}
+
+#center-footer:hover .overlay-1 {
+    opacity: 1;
+}
+
+.text-1 {
+    color: white;
+    font-size: 60px;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
